@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import './App.css'
 import Allfoter from './componemts/Allfoter/Allfoter'
 import Header from './componemts/Header/Header'
@@ -7,9 +8,17 @@ import Pricing from './componemts/Pricing/Pricing'
 import Started from './componemts/Started/Started'
 import Users from './componemts/Users/Users'
 import Workflow from './componemts/Workflow/Workflow'
+import PremiumHeader from './componemts/PremiumHeader/PremiumHeader'
 
+
+const fetchData =async()=>{
+   const res = await fetch("/data.json")
+   return res.json();
+}
 
 function App() {
+
+  const cardPromise= fetchData();
   return (
     <>
 
@@ -20,14 +29,20 @@ function App() {
       <main>
         <Header></Header>
         <Users></Users>
-        <Premium></Premium>
-        <Started></Started>
+          <PremiumHeader></PremiumHeader>
+        <Suspense fallback={<span className="loading loading-spinner text-primary"></span>} >
+            <Premium cardPromise={cardPromise}>
+              
+            </Premium>
+        </Suspense>
+        
+        {/* <Started></Started>
         <Pricing></Pricing>
-        <Workflow></Workflow>
+        <Workflow></Workflow> */}
       </main>
 
       <footer>
-         <Allfoter></Allfoter>
+         {/* <Allfoter></Allfoter> */}
       </footer>
     </>
   )
