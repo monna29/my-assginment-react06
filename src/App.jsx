@@ -36,13 +36,13 @@ function App() {
             </Premium>
         </Suspense>
         
-        {/* <Started></Started>
+        <Started></Started>
         <Pricing></Pricing>
-        <Workflow></Workflow> */}
+        <Workflow></Workflow>
       </main>
 
       <footer>
-         {/* <Allfoter></Allfoter> */}
+         <Allfoter></Allfoter>
       </footer>
     </>
   )

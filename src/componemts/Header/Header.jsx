@@ -2,7 +2,7 @@ import React from 'react';
 import Photo from "../../assets/banner.png"
 const Header = () => {
     return (
-        <div className='w-11/12 mx-auto  '>
+        <div className='w-11/12 mx-auto my-8  '>
             <div className='sm:flex  items-center justify-center '>
                 <div className='space-y-5 '>
                     <div className='flex sm:justify-normal justify-center '>
