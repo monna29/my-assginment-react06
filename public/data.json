@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "type": "One-Time",
+    "badge": "Popular",
+    "image": "https://img.icons8.com/color/96/design.png",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "AI Writing Pro",
+    "description": "Generate blogs, ads, and marketing content instantly with AI.",
+    "price": 29,
+    "type": "Monthly",
+    "badge": "Best Seller",
+    "image": "https://img.icons8.com/color/96/artificial-intelligence.png",
+    "features": [
+      "Unlimited generations",
+      "SEO optimized content",
+      "50+ templates"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Social Media Kit",
+    "description": "Ready-to-use posts, banners, and ads for all platforms.",
+    "price": 19,
+    "type": "One-Time",
+    "badge": "Trending",
+    "image": "https://img.icons8.com/color/96/instagram-new.png",
+    "features": [
+      "500+ post designs",
+      "Editable files",
+      "Instagram & Facebook ready"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Video Creator AI",
+    "description": "Create engaging videos from text using AI voice and animation.",
+    "price": 39,
+    "type": "Monthly",
+    "badge": "New",
+    "image": "https://img.icons8.com/color/96/video.png",
+    "features": [
+      "Auto subtitles",
+      "Voiceover AI",
+      "HD export"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Logo Maker Pro",
+    "description": "Design professional logos in minutes with AI tools.",
+    "price": 15,
+    "type": "One-Time",
+    "badge": "Hot",
+    "image": "https://img.icons8.com/color/96/logo.png",
+    "features": [
+      "1000+ logo styles",
+      "High resolution",
+      "Instant download"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Marketing Toolkit",
+    "description": "All-in-one tools for ads, funnels, and email campaigns.",
+    "price": 59,
+    "type": "Monthly",
+    "badge": "Recommended",
+    "image": "https://img.icons8.com/color/96/marketing.png",
+    "features": [
+      "Email templates",
+      "Ad copy generator",
+      "Analytics dashboard"
+    ]
+  }
+]
