@@ -29,7 +29,7 @@ function App() {
       <main>
         <Header></Header>
         <Users></Users>
-          <PremiumHeader></PremiumHeader>
+          {/* <PremiumHeader></PremiumHeader> */}
         <Suspense fallback={<span className="loading loading-spinner text-primary"></span>} >
             <Premium cardPromise={cardPromise}>
               
