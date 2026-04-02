@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <ShoppingCart className='mr-3' />
-          <p className='mr-3'>Login</p> 
+          <p className='mr-3 hidden sm:block'>Login</p> 
           <a className="btn bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full ">Get Started</a>
         </div>
       </div>
